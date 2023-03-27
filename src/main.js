@@ -26,11 +26,11 @@ function translate(query, completion) {
     } catch {
       $log.info(`返回结果不是 JSON: ${JSON.stringify(targetTxt)}`);
       if ($option.back_language === "en") {
-        maybePrompt = `What is "${queryTxt}" most likely to be? (Please try to answer more precisely.)`
-        desc_prompt = `Describe what "${queryTxt}" most likely to be`
+        maybePrompt = `How to implement this "${queryTxt}" in Android Studio? (Please try to answer more precisely.)`
+        desc_prompt = `Describe the brief steps of "${queryTxt}"`
       } else {
-        maybePrompt = `这个 "${queryTxt}" 最可能是什么？（要求精确些）`
-        desc_prompt = `描述 "${queryTxt}" 最可能是什么`
+        maybePrompt = `这个 "${queryTxt}" 如何在android stdio里实现？（要求精确些）`
+        desc_prompt = `描述 "${queryTxt}" 简明扼要的步骤`
       }
       const maybeTxt = await post_openai(maybePrompt);
       const descTxt = await post_openai(desc_prompt);
