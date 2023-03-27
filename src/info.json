@@ -7,7 +7,7 @@
     "icon": "",
     "author": "Ukenn",
     "homepage": "https://github.com/Kafka3/iWhatBobPlugin",
-    "appcast": "https://raw.githubusercontent.com/Ukenn2112/iWhatBobPlugin/master/appcast.json",
+    "appcast": "https://github.com/Kafka3/iWhatBobPlugin/blob/master/appcast.json",
     "minBobVersion": "0.5.0",
     "options": [
         {
