@@ -6,7 +6,7 @@
     "summary": "Android app helper",
     "icon": "",
     "author": "Ukenn",
-    "homepage": "https://github.com/Ukenn2112/iWhatBobPlugin",
+    "homepage": "https://github.com/Kafka3/iWhatBobPlugin",
     "appcast": "https://raw.githubusercontent.com/Ukenn2112/iWhatBobPlugin/master/appcast.json",
     "minBobVersion": "0.5.0",
     "options": [
